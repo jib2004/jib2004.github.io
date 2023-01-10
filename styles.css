@@ -414,6 +414,7 @@ footer{
 .social img{
     margin-left: 20px;
 }
+
 .hidden{
     opacity: 0;  
     transition: all 1s;
@@ -468,11 +469,14 @@ footer{
     width: 80%;
    }
    .specialties{
-    width: 100%;
+    display: grid;
+    background-color: black;
+    grid-template-rows: auto auto auto;
+    border: 1px solid red;
    }
    .box-container{
     left: 0;
-    width: 100%;
+    
    
    }
    .experience{
@@ -618,7 +622,8 @@ footer{
     }
     .specialties{
         background-color: black;
-      
+        height: 80%;
+        top:0;
         width: 100%;
     }
     .box-container{
@@ -630,9 +635,12 @@ footer{
     .box{
         text-align: center;
         width: 100%;
+        padding: 10px;
+        margin-bottom: 0;
+        height: 200px !important;
     }
     .experience{
-        top:61em;
+        top: 45em;
         left: 0;
         width: 100%;
         
@@ -658,7 +666,8 @@ footer{
         height: 100px;
     }
     .project{
-        margin-top: 35em;
+        margin-top:57em;
+        
         /* font-size: 12px; */
     }
     .project{
