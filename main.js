@@ -53,3 +53,30 @@ const observer = new IntersectionObserver((e)=>{
 const hiddenElement = document.querySelectorAll('.hidden');
 hiddenElement.forEach((el)=>observer.observe(el));
 
+
+console.log('Hello World')
+let arr = [];
+for(let i = 0 ; i < arr.length + 1; i++){
+ if(i > 20){
+  
+  break;
+ } else{
+  arr.push(i)
+  // if(){
+  //   arr.push(i)
+  //     console.log(arr)
+
+  // }else{
+  //   return ;
+  // }
+
+ 
+
+  // continue;
+ }
+}
+
+
+
+
+
